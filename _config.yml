@@ -8,14 +8,14 @@ permalink:        pretty
 #relative_permalinks: true
 
 # Setup
-title:            Hang Yuan
+title:            Hao Dong
 tagline:          'BLOGS'
 description:      CS@JACOBS Uni 2017
 baseurl:          /
 
 author:
-  name:           'Hang Yuan'
-  url:            https://de.linkedin.com/pub/hang-calvin-yuan/56/464/ba4
+  name:           'Hao Dong'
+  url:            https://uk.linkedin.com/in/hellohaodong
 
 paginate:         1
 
@@ -23,6 +23,6 @@ paginate:         1
 version:          
 
 github:
-  repo:           https://github.com/angerhang
+  repo:           https://github.com/zsdonghao
 
 google_analytics: UA-55002898-4
