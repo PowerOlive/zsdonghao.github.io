@@ -1,6 +1,7 @@
 # Dependencies
 gems:             [jekyll-paginate]
-markdown:         redcarpet
+# markdown:         redcarpet  # github will not longer support redcarpet
+markdown:         kramdown
 highlighter:      pygments
 
 # Permalinks
