@@ -11,13 +11,13 @@
         </div>
 
         <nav class="sidebar-nav">
-            <a class="sidebar-nav-item" href="https://de.linkedin.com/in/hang-calvin-yuan-ba446456">
+            <a class="sidebar-nav-item" href="https://uk.linkedin.com/in/hellohaodong">
                 <img border="0" class="nav-img" src="/img/linkedin.png" width="30" height="30">
             </a>
             <a class="sidebar-nav-item" href="{{ site.github.repo }}">
                 <img border="0" class="nav-img" src="/img/github.png" width="30" height="30">
             </a>
-            <a class="sidebar-nav-item" href="mailto:angerhangy@gmail.com">
+            <a class="sidebar-nav-item" href="mailto:hd311@imperial.ac.uk">
                 <img border="0" class="nav-img" src="/img/email.png" width="30" height="30">
             </a>
             <a class="sidebar-nav-item{% if page.url == site.baseurl %} active{% endif %}" href="{{ site.baseurl }}">Home</a> {% comment %} The code below dynamically generates a sidebar nav of pages with `layout: page` in the front-matter. See readme for usage. {% endcomment %} {% assign pages_list = site.pages %} {% for node in pages_list %} {% if node.title != null %} {% if node.layout == "page" %} {% endif %} {% endif %} {% endfor %}
