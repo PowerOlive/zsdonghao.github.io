@@ -2,11 +2,8 @@
 layout: page
 title: Blog directory
 ---
-* [SparkR](/blog/sparkR)
+* [TensorLayer](/blog/TensorLayer) A quick way to develop deep learning and reinforcement learning applications.
 
-* [Coursera Machine Learning by Andrew Ng Review](/blog/mlReview)
-
-* [Coursera Machine Learning Specialization Review](/blog/mlSpecOne)
 
 * [Stats with R](/r/r_home) A list of R tutorials convering a wide range of topics using a case-study approach.
 
