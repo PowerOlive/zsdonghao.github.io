@@ -1,4 +1,4 @@
-# Hao Dong's Blog
+# Hang's Blog
 
 This a my personal blog using the Hyde theme developed by [Mark Otto](https://github.com/mdo)
 
@@ -6,3 +6,11 @@ This a my personal blog using the Hyde theme developed by [Mark Otto](https://gi
 
 Open sourced under the [MIT license](LICENSE.md).
 
+
+## Local build Web
+
+sudo gem install jekyll-paginate
+
+sudo gem install redcarpet
+
+jekyll serve
