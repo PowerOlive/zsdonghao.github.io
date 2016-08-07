@@ -1,8 +1,8 @@
 .. _aboutme:
 
-============
-About Me
-============
+=========
+关于我
+=========
 
 TuneLayer has some prerequisites that need to be installed first, including
 `TensorFlow <https://www.tensorflow.org>`_, numpy and matplotlib. For GPU
@@ -13,6 +13,12 @@ instructions <https://www.tensorflow.org/versions/master/get_started/os_setup.ht
 which cover installing the TensorFlow for a range of operating systems including
 Mac OX and Linux, or ask for help on `hao.dong11@imperial.ac.uk <hao.dong11@imperial.ac.uk>`_.
 
+我
+
+
+`凤凰网 <https://www.ifeng.com>`_
+
+`网易163 <https://www.163.com>`_
 
 
 Prerequisites

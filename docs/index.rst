@@ -1,70 +1,37 @@
-Hi, I am Hao Dong
-=======================================
+欢迎来到我的私人数据库
+==================
 
 
-.. image:: user/my_figs/img_tunelayer.png
-  :scale: 25 %
+.. image:: user/my_figs/avatar.jpeg
+  :scale: 50 %
   :align: center
-  :target: https://github.com/zsdonghao/tunelayer
+  :target: https://zsdonghao.github.io
 
 
-大家好，这个文档用来记录
-
-`TuneLayer`_
-
-The `home page <https://zsdonghao.github.io>`_
-is not only for describing how to use `TuneLayer`_ but also
-a tutorial to walk through different type of Neural Networks, Deep
-Reinforcement Learning and Natural Language Processing etc.
-
-However, different with other inflexible TensorFlow wrappers,
-`TuneLayer`_ assumes that you are somewhat familiar with Neural Networks and TensorFlow.
-A basic understanding of how TensorFlow works is required to be
-able to use `TuneLayer`_ skillfully.
+您好，我叫`董豪`_，非常欢迎来到我的私人数据库，能在茫茫大海中发现这里真的很难得！
+我把这里当作是一个永久的私人数据库，记录一些我的经历、不同时期的思想以及我做过的一些事情。
+其实我并不希望在我生前被人发现这个数据库，我的想法是:只要互联网存在，这些数据将被永久保存，
+以供读者回顾20世纪末到21世纪末的历史。
 
 
-.. _TuneLayer-philosopy:
+.. _Blog-philosopy:
 
-Philosophy
+这里的内容
 ----------
 
-`TuneLayer`_ grew out of a need to combine the flexibility of TensorFlow with the
-availability of the right building blocks for training neural networks.
-Its development is guided by a number of design goals:
+这个数据库包含如下内容。
+
+* **关于我**: 您或许根本不在乎我是谁，但了解我的基本背景可以让您更好地了解这段历史。
+
+* **我的经历**: 很高兴能目睹中华人民共和国的高速发展，
+
+* **我的思想**: 我的思想在不同时期变化挺大的，年少时有一些想法
+
+* **我的项目**:
 
 
-* **Transparency**: Do not hide TensorFlow behind abstractions. Try to rely on
-  TensorFlow's functionality where possible, and follow TensorFlow's conventions.
-  Do not hide training process, all iteration, initialization can be managed
-  by user.
-
-* **Tensor**: Neural networks perform on multidimensional data arrays which are
-  referred to as "tensors".
-
-* **TPU**: Tensor Processing Unit is a custom ASIC built specifically for
-  machine learning and tailored for TensorFlow.
-
-* **Distribution**: Distributed Machine Learning is the default function of TensorFlow.
-
-* **Compatibility**: A network is abstracted to regularization, cost and outputs
-  of each layer. Easy to work with other TensorFlow libraries.
-
-* **Simplicity**: Be easy to use, easy to extend and modify, to facilitate use
-  in Research and Engineering.
-
-* **High-Speed**: The running speed under GPU support is the same with
-  TensorFlow only. The simplicity do not sacrifice the performance.
-
-
-
-.. note::
-   If
-
-
-
-
-User Guide
-------------
+目录
+-----
 
 The TuneLayer user guide explains how to install TensorFlow, CUDA and cuDNN,
 how to build and train neural networks using TuneLayer, and how to contribute
@@ -74,16 +41,17 @@ to the library as a developer.
   :maxdepth: 2
 
   user/aboutme
-  user/projects
+  user/project
+  user/thinking
+  user/story
 
-
-Indices and tables
-==================
+索引
+=======
 
 * :ref:`genindex`
 * :ref:`modindex`
 * :ref:`search`
 
 
-.. _GitHub: https://github.com/zsdonghao/tunelayer
-.. _TuneLayer: https://github.com/zsdonghao/tunelayer/
+.. _GitHub: https://github.com/zsdonghao
+.. _董豪: https://zsdonghao.github.io

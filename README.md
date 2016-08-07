@@ -1,4 +1,4 @@
-# Hang's Blog
+# [Hao's Blog](https://zsdonghao.github.io)
 
 This a my personal blog using the Hyde theme developed by [Mark Otto](https://github.com/mdo)
 
