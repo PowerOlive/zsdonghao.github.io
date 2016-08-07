@@ -8,7 +8,7 @@
   
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   
-  <title>Hi, I am Hao Dong &mdash; Hao Dong 1.1 documentation</title>
+  <title>欢迎来到我的私人数据库 &mdash; 董豪的文档 1.1 documentation</title>
   
 
   
@@ -30,8 +30,8 @@
   
 
   
-    <link rel="top" title="Hao Dong 1.1 documentation" href="#"/>
-        <link rel="next" title="About Me" href="user/aboutme.html"/> 
+    <link rel="top" title="董豪的文档 1.1 documentation" href="#"/>
+        <link rel="next" title="关于我" href="user/aboutme.html"/> 
 
   
   <script src="_static/js/modernizr.min.js"></script>
@@ -49,7 +49,7 @@
           
 
           
-            <a href="#" class="icon icon-home"> Hao Dong
+            <a href="#" class="icon icon-home"> 董豪的文档
           
 
           
@@ -81,8 +81,10 @@
             
             
                 <ul>
-<li class="toctree-l1"><a class="reference internal" href="user/aboutme.html">About Me</a></li>
-<li class="toctree-l1"><a class="reference internal" href="user/projects.html">Projects</a></li>
+<li class="toctree-l1"><a class="reference internal" href="user/aboutme.html">关于我</a></li>
+<li class="toctree-l1"><a class="reference internal" href="user/project.html">我的项目</a></li>
+<li class="toctree-l1"><a class="reference internal" href="user/thinking.html">我的思想</a></li>
+<li class="toctree-l1"><a class="reference internal" href="user/story.html">我的经历</a></li>
 </ul>
 
             
@@ -96,7 +98,7 @@
       
       <nav class="wy-nav-top" role="navigation" aria-label="top navigation">
         <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
-        <a href="#">Hao Dong</a>
+        <a href="#">董豪的文档</a>
       </nav>
 
 
@@ -113,7 +115,7 @@
   <ul class="wy-breadcrumbs">
     <li><a href="#">Docs</a> &raquo;</li>
       
-    <li>Hi, I am Hao Dong</li>
+    <li>欢迎来到我的私人数据库</li>
       <li class="wy-breadcrumbs-aside">
         
           
@@ -127,71 +129,65 @@
           <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
            <div itemprop="articleBody">
             
-  <div class="section" id="hi-i-am-hao-dong">
-<h1>Hi, I am Hao Dong<a class="headerlink" href="#hi-i-am-hao-dong" title="Permalink to this headline">¶</a></h1>
-<a class="reference external image-reference" href="https://github.com/zsdonghao/tunelayer"><img alt="_images/img_tunelayer.png" class="align-center" src="_images/img_tunelayer.png" style="width: 260.5px; height: 254.75px;" /></a>
-<p>大家好，这个文档用来记录</p>
-<p><a class="reference external" href="https://github.com/zsdonghao/tunelayer/">TuneLayer</a></p>
-<p>The <a class="reference external" href="https://zsdonghao.github.io">home page</a>
-is not only for describing how to use <a class="reference external" href="https://github.com/zsdonghao/tunelayer/">TuneLayer</a> but also
-a tutorial to walk through different type of Neural Networks, Deep
-Reinforcement Learning and Natural Language Processing etc.</p>
-<p>However, different with other inflexible TensorFlow wrappers,
-<a class="reference external" href="https://github.com/zsdonghao/tunelayer/">TuneLayer</a> assumes that you are somewhat familiar with Neural Networks and TensorFlow.
-A basic understanding of how TensorFlow works is required to be
-able to use <a class="reference external" href="https://github.com/zsdonghao/tunelayer/">TuneLayer</a> skillfully.</p>
-<div class="section" id="philosophy">
-<span id="tunelayer-philosopy"></span><h2>Philosophy<a class="headerlink" href="#philosophy" title="Permalink to this headline">¶</a></h2>
-<p><a class="reference external" href="https://github.com/zsdonghao/tunelayer/">TuneLayer</a> grew out of a need to combine the flexibility of TensorFlow with the
-availability of the right building blocks for training neural networks.
-Its development is guided by a number of design goals:</p>
+  <div class="section" id="id1">
+<h1>欢迎来到我的私人数据库<a class="headerlink" href="#id1" title="Permalink to this headline">¶</a></h1>
+<a class="reference external image-reference" href="https://zsdonghao.github.io"><img alt="_images/avatar.jpeg" class="align-center" src="_images/avatar.jpeg" style="width: 374.0px; height: 364.0px;" /></a>
+<p>您好，我叫 <a class="reference external" href="https://zsdonghao.github.io">董豪</a> ，这里是我的私人数据库，能在茫茫大海中在此相遇真的很难得！
+我把这里当作是一个永久的私人数据库，记录一些我的经历、不同时期的思想以及我做过的一些事情。
+其实我不太希望被人发现这个数据库，我的想法是:只要互联网存在，这些数据将被永久保存，
+以供后人回顾20世纪末到21世纪末的这段历史。</p>
+<div class="section" id="blog-philosopy">
+<span id="id2"></span><h2>这里的内容<a class="headerlink" href="#blog-philosopy" title="Permalink to this headline">¶</a></h2>
+<p>这个数据库包含如下内容。</p>
 <ul class="simple">
-<li><strong>Transparency</strong>: Do not hide TensorFlow behind abstractions. Try to rely on
-TensorFlow&#8217;s functionality where possible, and follow TensorFlow&#8217;s conventions.
-Do not hide training process, all iteration, initialization can be managed
-by user.</li>
-<li><strong>Tensor</strong>: Neural networks perform on multidimensional data arrays which are
-referred to as &#8220;tensors&#8221;.</li>
-<li><strong>TPU</strong>: Tensor Processing Unit is a custom ASIC built specifically for
-machine learning and tailored for TensorFlow.</li>
-<li><strong>Distribution</strong>: Distributed Machine Learning is the default function of TensorFlow.</li>
-<li><strong>Compatibility</strong>: A network is abstracted to regularization, cost and outputs
-of each layer. Easy to work with other TensorFlow libraries.</li>
-<li><strong>Simplicity</strong>: Be easy to use, easy to extend and modify, to facilitate use
-in Research and Engineering.</li>
-<li><strong>High-Speed</strong>: The running speed under GPU support is the same with
-TensorFlow only. The simplicity do not sacrifice the performance.</li>
+<li><strong>关于我</strong>: 您或许不会在乎我是谁，但了解我的基本背景可以让您更好地了解这段历史。</li>
+<li><strong>我的经历</strong>: 很高兴能活在中国大陆的高速发展的时期，也有幸有一段英国求学的经历。</li>
+<li><strong>我的思想</strong>: 在不同时期我对不同事物的看法很不一样。</li>
+<li><strong>我的项目</strong>: 人生是由大大小小的项目组成的，作为一个理工科毕业的我有很多工程和科学项目，
+但我也很喜欢做其它有意思的事情。</li>
 </ul>
-<div class="admonition note">
-<p class="first admonition-title">Note</p>
-<p class="last">If</p>
 </div>
-</div>
-<div class="section" id="user-guide">
-<h2>User Guide<a class="headerlink" href="#user-guide" title="Permalink to this headline">¶</a></h2>
-<p>The TuneLayer user guide explains how to install TensorFlow, CUDA and cuDNN,
-how to build and train neural networks using TuneLayer, and how to contribute
-to the library as a developer.</p>
+<div class="section" id="id3">
+<h2>目录<a class="headerlink" href="#id3" title="Permalink to this headline">¶</a></h2>
 <div class="toctree-wrapper compound">
 <ul>
-<li class="toctree-l1"><a class="reference internal" href="user/aboutme.html">About Me</a><ul>
-<li class="toctree-l2"><a class="reference internal" href="user/aboutme.html#prerequisites">Prerequisites</a></li>
-<li class="toctree-l2"><a class="reference internal" href="user/aboutme.html#tensorflow-release">TensorFlow release</a></li>
-<li class="toctree-l2"><a class="reference internal" href="user/aboutme.html#gpu-support">GPU support</a></li>
+<li class="toctree-l1"><a class="reference internal" href="user/aboutme.html">关于我</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="user/aboutme.html#id2">我的家乡</a></li>
+<li class="toctree-l2"><a class="reference internal" href="user/aboutme.html#id10">学生时代</a></li>
+<li class="toctree-l2"><a class="reference internal" href="user/aboutme.html#id18">互联网时代</a></li>
 </ul>
 </li>
-<li class="toctree-l1"><a class="reference internal" href="user/projects.html">Projects</a><ul>
-<li class="toctree-l2"><a class="reference internal" href="user/projects.html#prerequisites">Prerequisites</a></li>
-<li class="toctree-l2"><a class="reference internal" href="user/projects.html#tensorflow-release">TensorFlow release</a></li>
-<li class="toctree-l2"><a class="reference internal" href="user/projects.html#gpu-support">GPU support</a></li>
+<li class="toctree-l1"><a class="reference internal" href="user/project.html">我的项目</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="user/project.html#id2">高中时期</a></li>
+<li class="toctree-l2"><a class="reference internal" href="user/project.html#id4">本科时期</a></li>
+<li class="toctree-l2"><a class="reference internal" href="user/project.html#id6">研究生时期</a></li>
+<li class="toctree-l2"><a class="reference internal" href="user/project.html#id7">回国创业时期</a></li>
+<li class="toctree-l2"><a class="reference internal" href="user/project.html#id8">博士时期</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="user/thinking.html">我的思想</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="user/thinking.html#id2">本科时期</a></li>
+<li class="toctree-l2"><a class="reference internal" href="user/thinking.html#id7">研究生时期</a></li>
+<li class="toctree-l2"><a class="reference internal" href="user/thinking.html#id9">博士时期</a></li>
+<li class="toctree-l2"><a class="reference internal" href="user/thinking.html#id10">互联网</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="user/story.html">我的经历</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="user/story.html#id2">小时候</a></li>
+<li class="toctree-l2"><a class="reference internal" href="user/story.html#id3">初中时期</a></li>
+<li class="toctree-l2"><a class="reference internal" href="user/story.html#id5">高中时期</a></li>
+<li class="toctree-l2"><a class="reference internal" href="user/story.html#id11">本科时期</a></li>
+<li class="toctree-l2"><a class="reference internal" href="user/story.html#id12">研究生时期</a></li>
+<li class="toctree-l2"><a class="reference internal" href="user/story.html#id13">回国创业时期</a></li>
+<li class="toctree-l2"><a class="reference internal" href="user/story.html#id15">博士时期</a></li>
 </ul>
 </li>
 </ul>
 </div>
 </div>
 </div>
-<div class="section" id="indices-and-tables">
-<h1>Indices and tables<a class="headerlink" href="#indices-and-tables" title="Permalink to this headline">¶</a></h1>
+<div class="section" id="id4">
+<h1>索引<a class="headerlink" href="#id4" title="Permalink to this headline">¶</a></h1>
 <ul class="simple">
 <li><a class="reference internal" href="genindex.html"><span class="std std-ref">Index</span></a></li>
 <li><a class="reference internal" href="py-modindex.html"><span class="std std-ref">Module Index</span></a></li>
@@ -206,7 +202,7 @@ to the library as a developer.</p>
   
     <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
       
-        <a href="user/aboutme.html" class="btn btn-neutral float-right" title="About Me" accesskey="n">Next <span class="fa fa-arrow-circle-right"></span></a>
+        <a href="user/aboutme.html" class="btn btn-neutral float-right" title="关于我" accesskey="n">Next <span class="fa fa-arrow-circle-right"></span></a>
       
       
     </div>
@@ -216,7 +212,7 @@ to the library as a developer.</p>
 
   <div role="contentinfo">
     <p>
-        &copy; Copyright 2016, Hao Dong.
+        &copy; Copyright 2016, 董豪.
 
     </p>
   </div>

@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 #
-# Hao Dong documentation build configuration file, created by
+# 董豪 documentation build configuration file, created by
 # sphinx-quickstart on Tue Aug  2 15:30:55 2016.
 #
 # This file is execfile()d with the current directory set to its
@@ -55,9 +55,9 @@ source_suffix = '.rst'
 master_doc = 'index'
 
 # General information about the project.
-project = 'Hao Dong'
-copyright = '2016, Hao Dong'
-author = 'Hao Dong'
+project = '董豪的文档'
+copyright = '2016, 董豪'
+author = '董豪'
 
 # The version info for the project you're documenting, acts as replacement for
 # |version| and |release|, also used in various other places throughout the
@@ -140,7 +140,7 @@ todo_include_todos = False
 # The name for this set of Sphinx documents.
 # "<project> v<release> documentation" by default.
 #
-# html_title = 'Hao Dong v1.1'
+# html_title = '董豪 v1.1'
 
 # A shorter title for the navigation bar.  Default is the same as html_title.
 #
@@ -226,7 +226,7 @@ html_static_path = ['_static']
 #   'da', 'de', 'en', 'es', 'fi', 'fr', 'h', 'it', 'ja'
 #   'nl', 'no', 'pt', 'ro', 'r', 'sv', 'tr', 'zh'
 #
-# html_search_language = 'en'
+html_search_language = 'zh'
 
 # A dictionary with options for the search language support, empty by default.
 # 'ja' uses this config value.
@@ -240,7 +240,7 @@ html_static_path = ['_static']
 # html_search_scorer = 'scorer.js'
 
 # Output file base name for HTML help builder.
-htmlhelp_basename = 'Hao Dong doc'
+htmlhelp_basename = '董豪 doc'
 
 # -- Options for LaTeX output ---------------------------------------------
 
@@ -266,8 +266,8 @@ latex_elements = {
 # (source start file, target name, title,
 #  author, documentclass [howto, manual, or own class]).
 latex_documents = [
-    (master_doc, 'Hao_Dong.tex', 'Hao Dong\'s Documentation',
-     'Hao Dong', 'manual'),
+    (master_doc, '董豪.tex', '董豪的文档',
+     '董豪', 'manual'),
 ]
 
 # The name of an image file (relative to this directory) to place at the top of
@@ -302,7 +302,7 @@ latex_documents = [
 # One entry per manual page. List of tuples
 # (source start file, name, description, authors, manual section).
 man_pages = [
-    (master_doc, 'Hao Dong', 'Hao Dong\'s Documentation',
+    (master_doc, '董豪', '董豪的文档',
      [author], 1)
 ]
 
@@ -317,8 +317,8 @@ man_pages = [
 # (source start file, target name, title, author,
 #  dir menu entry, description, category)
 texinfo_documents = [
-    (master_doc, 'Hao Dong', 'Hao Dong\'s Documentation',
-     author, 'Hao Dong', 'One line description of project.',
+    (master_doc, '董豪', '董豪的文档',
+     author, '董豪', '永久的私人数据库.',
      'Miscellaneous'),
 ]
 

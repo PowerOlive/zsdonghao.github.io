@@ -8,7 +8,7 @@
   
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   
-  <title>About Me &mdash; Hao Dong 1.1 documentation</title>
+  <title>关于我 &mdash; 董豪的文档 1.1 documentation</title>
   
 
   
@@ -30,9 +30,9 @@
   
 
   
-    <link rel="top" title="Hao Dong 1.1 documentation" href="../index.html"/>
-        <link rel="next" title="Projects" href="projects.html"/>
-        <link rel="prev" title="Hi, I am Hao Dong" href="../index.html"/> 
+    <link rel="top" title="董豪的文档 1.1 documentation" href="../index.html"/>
+        <link rel="next" title="我的项目" href="project.html"/>
+        <link rel="prev" title="欢迎来到我的私人数据库" href="../index.html"/> 
 
   
   <script src="../_static/js/modernizr.min.js"></script>
@@ -50,7 +50,7 @@
           
 
           
-            <a href="../index.html" class="icon icon-home"> Hao Dong
+            <a href="../index.html" class="icon icon-home"> 董豪的文档
           
 
           
@@ -82,25 +82,39 @@
             
             
                 <ul class="current">
-<li class="toctree-l1 current"><a class="current reference internal" href="#">About Me</a><ul>
-<li class="toctree-l2"><a class="reference internal" href="#prerequisites">Prerequisites</a><ul>
-<li class="toctree-l3"><a class="reference internal" href="#python-pip">Python + pip</a></li>
-<li class="toctree-l3"><a class="reference internal" href="#id1">TensorFlow</a></li>
+<li class="toctree-l1 current"><a class="current reference internal" href="#">关于我</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="#id2">我的家乡</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="#id3">地理</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#id4">历史概述</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#id5">石岐话</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#id6">香山文化</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#id7">万人行</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#id8">中山精神对我的影响</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#id9">菊花</a></li>
 </ul>
 </li>
-<li class="toctree-l2"><a class="reference internal" href="#tensorflow-release">TensorFlow release</a><ul>
-<li class="toctree-l3"><a class="reference internal" href="#id2">TensorFlow</a></li>
-<li class="toctree-l3"><a class="reference internal" href="#tunelayer">TuneLayer</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#id10">学生时代</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="#id11">中山石岐中心小学</a><ul>
+<li class="toctree-l4"><a class="reference internal" href="#id12">多动症</a></li>
+<li class="toctree-l4"><a class="reference internal" href="#id13">学习波动</a></li>
 </ul>
 </li>
-<li class="toctree-l2"><a class="reference internal" href="#gpu-support">GPU support</a><ul>
-<li class="toctree-l3"><a class="reference internal" href="#cuda">CUDA</a></li>
-<li class="toctree-l3"><a class="reference internal" href="#cudnn">cuDNN</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#id14">三鑫双语学校</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#id15">中山纪念中学</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#id16">北京理工大学与英国中央兰开夏大学</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#id17">帝国理工</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="#id18">互联网时代</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="#id19">家里装网啦</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#id20">信息来源</a></li>
 </ul>
 </li>
 </ul>
 </li>
-<li class="toctree-l1"><a class="reference internal" href="projects.html">Projects</a></li>
+<li class="toctree-l1"><a class="reference internal" href="project.html">我的项目</a></li>
+<li class="toctree-l1"><a class="reference internal" href="thinking.html">我的思想</a></li>
+<li class="toctree-l1"><a class="reference internal" href="story.html">我的经历</a></li>
 </ul>
 
             
@@ -114,7 +128,7 @@
       
       <nav class="wy-nav-top" role="navigation" aria-label="top navigation">
         <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
-        <a href="../index.html">Hao Dong</a>
+        <a href="../index.html">董豪的文档</a>
       </nav>
 
 
@@ -131,7 +145,7 @@
   <ul class="wy-breadcrumbs">
     <li><a href="../index.html">Docs</a> &raquo;</li>
       
-    <li>About Me</li>
+    <li>关于我</li>
       <li class="wy-breadcrumbs-aside">
         
           
@@ -145,104 +159,90 @@
           <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
            <div itemprop="articleBody">
             
-  <div class="section" id="about-me">
-<span id="aboutme"></span><h1>About Me<a class="headerlink" href="#about-me" title="Permalink to this headline">¶</a></h1>
-<p>TuneLayer has some prerequisites that need to be installed first, including
-<a class="reference external" href="https://www.tensorflow.org">TensorFlow</a>, numpy and matplotlib. For GPU
-support CUDA and cuDNN are required.</p>
-<p>If you run into any trouble, please check the <a class="reference external" href="https://www.tensorflow.org/versions/master/get_started/os_setup.html">TensorFlow installation
-instructions</a>
-which cover installing the TensorFlow for a range of operating systems including
-Mac OX and Linux, or ask for help on <a class="reference external" href="mailto:hao&#46;dong11&#37;&#52;&#48;imperial&#46;ac&#46;uk">hao<span>&#46;</span>dong11<span>&#64;</span>imperial<span>&#46;</span>ac<span>&#46;</span>uk</a>.</p>
-<div class="section" id="prerequisites">
-<h2>Prerequisites<a class="headerlink" href="#prerequisites" title="Permalink to this headline">¶</a></h2>
-<div class="section" id="python-pip">
-<h3>Python + pip<a class="headerlink" href="#python-pip" title="Permalink to this headline">¶</a></h3>
-<p>TuneLayer is build on the top of Python-version TensorFlow. Please install
-Python first.</p>
-<div class="admonition note">
-<p class="first admonition-title">Note</p>
-<p class="last">We highly recommend python3 instead of python2 for the sake of future.</p>
-</div>
-<p>Python includes <code class="docutils literal"><span class="pre">pip</span></code> command for installing additional modules is recommended.
-Besides, a <a class="reference external" href="http://www.dabapps.com/blog/introduction-to-pip-and-virtualenv-python/">virtual environment</a>
-via <code class="docutils literal"><span class="pre">virtualenv</span></code> can help you to manage your python packages.</p>
-<p>Take Python3 for example, to install Python includes <code class="docutils literal"><span class="pre">pip</span></code>, run the following commands:</p>
-<div class="highlight-bash"><div class="highlight"><pre><span></span>sudo apt-get install python3
-sudo apt-get install python3-pip
-sudo pip3 install virtualenv
-</pre></div>
-</div>
-<p>To build a virtual environment and install matplotlib and numpy into it, run the following commands:</p>
-<div class="highlight-bash"><div class="highlight"><pre><span></span>virtualenv env
-env/bin/pip install matplotlib
-env/bin/pip install numpy
-</pre></div>
-</div>
-<p>Check the installed packages, run the following command:</p>
-<div class="highlight-bash"><div class="highlight"><pre><span></span>env/bin/pip list
-</pre></div>
-</div>
-</div>
-<div class="section" id="id1">
-<h3>TensorFlow<a class="headerlink" href="#id1" title="Permalink to this headline">¶</a></h3>
-<p>The installation instructions of TensorFlow are written to be very detailed on TensorFlow website.
-However, there are something need to be considered.</p>
-</div>
-</div>
-<div class="section" id="tensorflow-release">
-<h2>TensorFlow release<a class="headerlink" href="#tensorflow-release" title="Permalink to this headline">¶</a></h2>
+  <div class="section" id="aboutme">
+<span id="id1"></span><h1>关于我<a class="headerlink" href="#aboutme" title="Permalink to this headline">¶</a></h1>
+<p>我出生在孙中山先生的故乡-中国广东中山，家乡对我的人格塑造有很深远的影响，之后会提到。
+我小时候不太爱读书，除了小学一年级考过年纪第一，就没有然后了，跌跌撞撞最后居然到了
+帝国理工读书，我的求学经历是一个很长的故事。。</p>
 <div class="section" id="id2">
-<h3>TensorFlow<a class="headerlink" href="#id2" title="Permalink to this headline">¶</a></h3>
-<p><a class="reference external" href="https://www.tensorflow.org/versions/master/get_started/os_setup.html">TensorFlow</a> only officially
-supports GPU acceleration for Linux at present.
-If you want to use GPU with Mac OX, you need to compile TensorFlow from source.</p>
-<div class="admonition warning">
-<p class="first admonition-title">Warning</p>
-<p class="last">For ARM processor architecture, you also need to install TensorFlow from source.</p>
+<h2>我的家乡<a class="headerlink" href="#id2" title="Permalink to this headline">¶</a></h2>
+<p>我的家乡对我的人格塑造有很深远的影响，一句话概括就是中山精神在我少年时代已经深深植入
+我的每一个方面。这听起来有点不可思议，但这却是真实地存在的！</p>
+<div class="section" id="id3">
+<h3>地理<a class="headerlink" href="#id3" title="Permalink to this headline">¶</a></h3>
+<a class="reference external image-reference" href="https://zh.wikipedia.org/wiki/中山市"><img alt="../_images/中山地理.png" class="align-center" src="../_images/中山地理.png" style="width: 500.0px; height: 400.0px;" /></a>
+<p>我的家乡位于珠三角出海口西面，北靠广州、南靠珠海澳门、西靠江门、东靠深圳香港。</p>
+</div>
+<div class="section" id="id4">
+<h3>历史概述<a class="headerlink" href="#id4" title="Permalink to this headline">¶</a></h3>
+<p>前身为1152年设立的香山县；1925年，为纪念孙中山而改名为中山。
+明朝，香山北部地区开始淤积成陆，此时才与大陆相连。
+中山在古代默默无闻，到近代因为其地理、人文、华侨的原因，与海外交流甚多，成为推翻满清建立
+共和的桥头堡。</p>
+<p>到2010年，中山市户籍人口只有142.3万，祖籍本市的海外华侨和旅居港澳台同胞共80多万人。
+虽然土地和人口很少，但因市民思想开明、民企众多，经济总量排在广东第五位，是中国4个不设市辖区的地级市之一。
+除了发展经济，中山人还非常注意环境保护，获得过联合国人居奖。</p>
+<p>值得注意的是，珠海和澳门曾经都是中山的一部分，现在也是香山文化的继承者。</p>
+</div>
+<div class="section" id="id5">
+<h3>石岐话<a class="headerlink" href="#id5" title="Permalink to this headline">¶</a></h3>
+<p>石岐一直中山最重要的地方，现在是市中心的统称。石岐话是粤语的一种，主要流行于广东省中山市
+的石岐及南朗镇、珠海市的唐家湾镇、前山一带，与广州粤语可互通，但又不尽相同。</p>
+<p>在民国时期石岐话曾盛极一时，原因是孙中山、唐兆仪等名人都是用石岐话来交流。而且随着由
+中山人一手创办的四大百货在上海崛起，许多中山人来到当时十里洋场的上海滩工作，于是石岐话在
+当时的上海占有一席之位，其中，四大百货公司中的永安公司名字也是用中山拼音，
+读作“Wing On”，甚至在中山人开设的食店，上海人和外国人都会用石岐话来点菜。</p>
+</div>
+<div class="section" id="id6">
+<h3>香山文化<a class="headerlink" href="#id6" title="Permalink to this headline">¶</a></h3>
+<p>香山文化在地缘上是指包括今天的中山、珠海、澳门在内的地域文化。它在本质上集中体现了岭南文化中粤、闽、客三大民系的文化特征，是中原文化、土著文化、西洋文化、南洋文化相互碰撞和不断融合的产物</p>
+</div>
+<div class="section" id="id7">
+<h3>万人行<a class="headerlink" href="#id7" title="Permalink to this headline">¶</a></h3>
+<p>慈善万人行活动更是中山一道迷人</p>
+</div>
+<div class="section" id="id8">
+<h3>中山精神对我的影响<a class="headerlink" href="#id8" title="Permalink to this headline">¶</a></h3>
+<p>20世纪末，中山精神被总结为 “博爱、创新、包容、和谐”，</p>
+</div>
+<div class="section" id="id9">
+<h3>菊花<a class="headerlink" href="#id9" title="Permalink to this headline">¶</a></h3>
 </div>
 </div>
-<div class="section" id="tunelayer">
-<h3>TuneLayer<a class="headerlink" href="#tunelayer" title="Permalink to this headline">¶</a></h3>
-<p>Hao Dong highly recommend you to install TuneLayer as follow.</p>
-<div class="highlight-bash"><div class="highlight"><pre><span></span><span class="nb">cd</span> to the root of the git tree
-pip3 install . -e
-</pre></div>
+<div class="section" id="id10">
+<h2>学生时代<a class="headerlink" href="#id10" title="Permalink to this headline">¶</a></h2>
+<div class="section" id="id11">
+<h3>中山石岐中心小学<a class="headerlink" href="#id11" title="Permalink to this headline">¶</a></h3>
+<div class="section" id="id12">
+<h4>多动症<a class="headerlink" href="#id12" title="Permalink to this headline">¶</a></h4>
 </div>
-<p>This command will run the <code class="docutils literal"><span class="pre">setup.py</span></code> to install TuneLayer. The <code class="docutils literal"><span class="pre">-e</span></code> allows
-you to edit the scripts in <code class="docutils literal"><span class="pre">tunelayer</span></code> folder, this help you to extend and modify
-TuneLayer easily.</p>
-</div>
-</div>
-<div class="section" id="gpu-support">
-<h2>GPU support<a class="headerlink" href="#gpu-support" title="Permalink to this headline">¶</a></h2>
-<p>Thanks to NVIDIA supports, training a fully connected network on a
-GPU, which may be 10 to 20 times faster than training them on a CPU.
-For convolutional network, may have 50 times faster. This requires an NVIDIA GPU with CUDA and cuDNN support.</p>
-<div class="section" id="cuda">
-<h3>CUDA<a class="headerlink" href="#cuda" title="Permalink to this headline">¶</a></h3>
-<p>The TensorFlow website also teach how to install the CUDA and cuDNN, please click:
-<a class="reference external" href="https://www.tensorflow.org/versions/master/get_started/os_setup.html#optional-install-cuda-gpus-on-linux">TensorFlow: CUDA install</a>.</p>
-<p>Install the latest CUDA and cuDNN available from NVIDIA:</p>
-<p><a class="reference external" href="https://developer.nvidia.com/cuda-downloads">CUDA install</a></p>
-<p><a class="reference external" href="https://developer.nvidia.com/cuda-downloads">cuDNN install</a></p>
-<p>After installation, make sure <code class="docutils literal"><span class="pre">/usr/local/cuda/bin</span></code> is in your <code class="docutils literal"><span class="pre">PATH</span></code> (use <code class="docutils literal"><span class="pre">echo</span> <span class="pre">#PATH</span></code> to check), and
-<code class="docutils literal"><span class="pre">nvcc</span> <span class="pre">--version</span></code> works. Also ensure <code class="docutils literal"><span class="pre">/usr/local/cuda/lib64</span></code> is in your
-<code class="docutils literal"><span class="pre">LD_LIBRARY_PATH</span></code>, so the CUDA libraries can be found.</p>
-<p>If CUDA is set up correctly, the following command should print some GPU information on
-the terminal:</p>
-<div class="highlight-bash"><div class="highlight"><pre><span></span>python -c <span class="s2">&quot;import tensorflow&quot;</span>
-</pre></div>
+<div class="section" id="id13">
+<h4>学习波动<a class="headerlink" href="#id13" title="Permalink to this headline">¶</a></h4>
 </div>
 </div>
-<div class="section" id="cudnn">
-<h3>cuDNN<a class="headerlink" href="#cudnn" title="Permalink to this headline">¶</a></h3>
-<p>NVIDIA provides a library for common neural network operations that especially
-speeds up Convolutional Neural Networks (CNNs). Again, it can be obtained from
-NVIDIA after registering as a developer (it take a while):
-<a class="reference external" href="https://developer.nvidia.com/cuda-downloads">cuDNN install</a></p>
-<p>To install it, copy the <code class="docutils literal"><span class="pre">*.h</span></code> files to <code class="docutils literal"><span class="pre">/usr/local/cuda/include</span></code> and the
-<code class="docutils literal"><span class="pre">lib*</span></code> files to <code class="docutils literal"><span class="pre">/usr/local/cuda/lib64</span></code>.</p>
+<div class="section" id="id14">
+<h3>三鑫双语学校<a class="headerlink" href="#id14" title="Permalink to this headline">¶</a></h3>
+</div>
+<div class="section" id="id15">
+<h3>中山纪念中学<a class="headerlink" href="#id15" title="Permalink to this headline">¶</a></h3>
+<a class="reference external image-reference" href="https://zh.wikipedia.org/wiki/中山纪念中学"><img alt="../_images/纪中正门.jpg" class="align-center" src="../_images/纪中正门.jpg" style="width: 600.0px; height: 400.0px;" /></a>
+</div>
+<div class="section" id="id16">
+<h3>北京理工大学与英国中央兰开夏大学<a class="headerlink" href="#id16" title="Permalink to this headline">¶</a></h3>
+</div>
+<div class="section" id="id17">
+<h3>帝国理工<a class="headerlink" href="#id17" title="Permalink to this headline">¶</a></h3>
+</div>
+</div>
+<div class="section" id="id18">
+<h2>互联网时代<a class="headerlink" href="#id18" title="Permalink to this headline">¶</a></h2>
+<div class="section" id="id19">
+<h3>家里装网啦<a class="headerlink" href="#id19" title="Permalink to this headline">¶</a></h3>
+</div>
+<div class="section" id="id20">
+<h3>信息来源<a class="headerlink" href="#id20" title="Permalink to this headline">¶</a></h3>
+<p>不知道从什么时候开始，我的主要信息来源是 <a class="reference external" href="https://www.ifeng.com">凤凰网</a> 和 <a class="reference external" href="https://www.163.com">网易163</a>。</p>
+<p>高一</p>
 </div>
 </div>
 </div>
@@ -254,10 +254,10 @@ NVIDIA after registering as a developer (it take a while):
   
     <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
       
-        <a href="projects.html" class="btn btn-neutral float-right" title="Projects" accesskey="n">Next <span class="fa fa-arrow-circle-right"></span></a>
+        <a href="project.html" class="btn btn-neutral float-right" title="我的项目" accesskey="n">Next <span class="fa fa-arrow-circle-right"></span></a>
       
       
-        <a href="../index.html" class="btn btn-neutral" title="Hi, I am Hao Dong" accesskey="p"><span class="fa fa-arrow-circle-left"></span> Previous</a>
+        <a href="../index.html" class="btn btn-neutral" title="欢迎来到我的私人数据库" accesskey="p"><span class="fa fa-arrow-circle-left"></span> Previous</a>
       
     </div>
   
@@ -266,7 +266,7 @@ NVIDIA after registering as a developer (it take a while):
 
   <div role="contentinfo">
     <p>
-        &copy; Copyright 2016, Hao Dong.
+        &copy; Copyright 2016, 董豪.
 
     </p>
   </div>
